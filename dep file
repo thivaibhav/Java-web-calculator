@@ -17,4 +17,4 @@ spec:
         - name: myapp-v1
           image: surya9961/javacalculator
           ports:
-            - containerPort: 80  # Port 80
+            - containerPort: 8080  # Port 80
