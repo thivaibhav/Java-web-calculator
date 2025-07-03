@@ -4,7 +4,7 @@ metadata:
   name: myapp-v1
   namespace: default
 spec:
-  replicas: 5 # Number of replicas
+  replicas: 4 # Number of replicas
   selector:
     matchLabels:
       app: myapp-v1
@@ -17,4 +17,4 @@ spec:
         - name: myapp-v1
           image: surya9961/javacalculator:v1
           ports:
-            - containerPort: 8080  # Port 80
+            - containerPort: 8081  # Port 8081
