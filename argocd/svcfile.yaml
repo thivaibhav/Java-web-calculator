@@ -9,4 +9,4 @@ spec:
   ports:
   - protocol: TCP
     port: 80        # This is the port exposed to the outside world
-    targetPort: 8081
+    targetPort: 8080
